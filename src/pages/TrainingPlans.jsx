@@ -68,7 +68,7 @@ const handlePlanClick = (plan) => {
             <img
               src={plan.image}
               alt={plan.title}
-              className="w-full h-52 object-cover"
+              className="w-full h-52 object-cover "
             />
             <div className="p-3">
               <h2 className="text-lg font-semibold">{plan.title}{}</h2>
