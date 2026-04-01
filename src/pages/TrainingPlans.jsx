@@ -66,7 +66,7 @@ const handlePlanClick = (plan) => {
             onClick={() => handlePlanClick(plan)}
           >
             <img
-              src={plan.image || "/placeholder.jpg"}
+              src={plan.image}
               alt={plan.title}
               className="w-full h-52 object-cover"
             />
