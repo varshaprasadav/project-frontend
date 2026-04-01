@@ -1,5 +1,5 @@
 // Centralized API configuration and methods
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://project-backend-p1mt.onrender.com';
 
 // Default fetch options with credentials included
 const defaultOptions = {
