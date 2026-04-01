@@ -69,7 +69,6 @@ const handlePlanClick = (plan) => {
               src={plan.image || "/placeholder.jpg"}
               alt={plan.title}
               className="w-full h-52 object-cover"
-              onError={(e) => { e.target.src = "/placeholder.jpg"; }}
             />
             <div className="p-3">
               <h2 className="text-lg font-semibold">{plan.title}{}</h2>
